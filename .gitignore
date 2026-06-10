@@ -1,0 +1,76 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Rails
+*.rbc
+capybara-*.html
+.rspec
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-[0-9]
+/public/system
+/coverage/
+/spec/tmp
+*.orig
+rerun.txt
+pickle-email-*.html
+
+# Logs
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Storage
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/.keep
+
+# Ignore master key for decrypting credentials
+/config/master.key
+
+# Node modules
+/node_modules
+/app/assets/builds/*
+!/app/assets/builds/.keep
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+
+# Bundler
+/.bundle
+/vendor/bundle
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Rails specific
+/public/assets
+.bundler
+.ruby-version
+.ruby-gemset
+
+# Security - Don't commit sensitive data
+/config/credentials/*.yml.enc
+/config/credentials.yml.enc
+
+# Test coverage
+/coverage/
+
+# Database
+*.sqlite3
+*.sqlite3-journal
+
+# Temporary files
+*.tmp
+*.temp
