@@ -125,8 +125,8 @@ bundler >= 2.4.0
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/PrimeNexuss/NexAPI-Vm.git
-cd NexAPI-Vm
+git clone https://github.com/PrimeNexuss/NexAPI.git
+cd NexAPI
 
 # 2. Run the automated setup script
 chmod +x setup/install.sh
